@@ -38,14 +38,15 @@
 
 <h1>Daftar Topup Diamond</h1>
 
-<a href="/diamonds/create">Tambah Topup Diamond</a>
+<a href="/gem/create">Tambah Topup Diamond</a>
 
 <table>
     <thead>
         <tr>
             <th>ID</th>
+            <th>UID</th>
             <th>Nickname</th>
-            <th>User ID</th>
+            <th>Server</th>
             <th>Amount</th>
             <th>Created At</th>
             <th>Updated At</th>
@@ -53,17 +54,18 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($diamonds as $diamond) : ?>
+        <?php foreach ($gem as $gm) : ?>
             <tr>
-                <td><?= $diamond['id']; ?></td>
-                <td><?= $diamond['nickname']; ?></td>
-                <td><?= $diamond['user_id']; ?></td>
-                <td><?= $diamond['amount']; ?></td>
-                <td><?= $diamond['created_at']; ?></td>
-                <td><?= $diamond['updated_at']; ?></td>
+                <td><?= $gm['id']; ?></td>
+                <td><?= $gm['uid']; ?></td>
+                <td><?= $gm['nickname']; ?></td>
+                <td><?= $gm['server']; ?></td>
+                <td><?= $gm['amount']; ?></td>
+                <td><?= $gm['created_at']; ?></td>
+                <td><?= $gm['updated_at']; ?></td>
                 <td>
-                    <a href="/diamonds/edit/<?= $diamond['id']; ?>">Edit</a>
-                    <a href="/diamonds/delete/<?= $diamond['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                    <a href="/gem/edit/<?= $gm['id']; ?>">Edit</a>
+                    <a href="/gem/delete/<?= $gm['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
                 </td>
             </tr>
         <?php endforeach; ?>

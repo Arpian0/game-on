@@ -3,12 +3,17 @@
 namespace App\Controllers;
 
 use App\Models\AdminModel;
-use App\Models\BookModel;
+use App\Models\ApexcoinModel;
 use App\Models\BorrowModel;
+use App\Models\CrystalModel;
+use App\Models\DcModel;
 use App\Models\DiamondTopupModel;
+use App\Models\GemModel;
 use App\Models\ImageModel;
 use App\Models\LoanModel;
-use App\Models\MemberModel;
+use App\Models\PrimogemModel;
+use App\Models\StellarModel;
+use App\Models\ValorantModel;
 use CodeIgniter\Controller;
 
 class Dashboard extends Controller
@@ -22,6 +27,27 @@ class Dashboard extends Controller
     {
         $model = new DiamondTopupModel();
         $data['diamonds'] = $model->findAll();
+
+        $model = new PrimogemModel();
+        $data['primogem'] = $model->findAll();
+
+        $model = new StellarModel();
+        $data['stellar'] = $model->findAll();
+
+        $model = new CrystalModel();
+        $data['crystal'] = $model->findAll();
+
+        $model = new DcModel();
+        $data['darkcrystal'] = $model->findAll();
+
+        $model = new GemModel();
+        $data['gem'] = $model->findAll();
+
+        $model = new ValorantModel();
+        $data['valorant'] = $model->findAll();
+
+        $model = new ApexcoinModel();
+        $data['apexcoin'] = $model->findAll();
 
         echo view('dashboard/admin', $data);
     }

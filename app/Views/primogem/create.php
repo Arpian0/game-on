@@ -2,7 +2,7 @@
     .card {
         display: flex;
         padding: 50px;
-        width: 600px;
+        width: 900px;
         height: 30px;
         border-radius: 10px;
         background-color: wheat;
@@ -16,14 +16,14 @@
 
 <h1>Tambah Topup Diamond</h1>
 
-<form class="card" action="/diamonds/store" method="post">
+<form class="card" action="/primogem/store" method="post">
     <div>
-        <label for="nickname">Nickname:</label>
-        <input type="text" name="nickname" id="nickname" required>
+        <label for="nick_gi">Nickname:</label>
+        <input type="text" name="nick_gi" id="nick_gi" required>
     </div>
-    <div>
-        <label for="user_id">User ID:</label>
-        <input type="text" name="user_id" id="user_id" placeholder="Contoh : 123XXXX(XXXX)" required>
+    <div style="padding-left: 20px;">
+        <label for="user_uid">UID:</label>
+        <input type="text" name="user_uid" id="user_uid" placeholder="Contoh : 123XXXXXX" required>
     </div>
 
     <div style="padding-left: 20px;">

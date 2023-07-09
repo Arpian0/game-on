@@ -2,30 +2,31 @@
 
 namespace App\Controllers;
 
-use App\Models\DiamondTopupModel;
+use App\Models\GemModel;
 
-class DiamondTopupController extends BaseController
+class GemController extends BaseController
 {
     public function index()
     {
-        $model = new DiamondTopupModel();
-        $data['diamonds'] = $model->findAll();
+        $model = new GemModel();
+        $data['gem'] = $model->findAll();
 
-        return view('diamonds/index', $data);
+        return view('gem/index', $data);
     }
 
     public function create()
     {
-        return view('diamonds/create');
+        return view('gem/create');
     }
 
     public function store()
     {
-        $model = new DiamondTopupModel();
+        $model = new GemModel();
 
         $data = [
+            'uid' => $this->request->getPost('uid'),
             'nickname' => $this->request->getPost('nickname'),
-            'user_id' => $this->request->getPost('user_id'),
+            'server' => $this->request->getPost('server'),
             'amount' => $this->request->getPost('amount')
         ];
 
@@ -36,32 +37,33 @@ class DiamondTopupController extends BaseController
 
     public function edit($id)
     {
-        $model = new DiamondTopupModel();
-        $data['diamond'] = $model->find($id);
+        $model = new GemModel();
+        $data['gem'] = $model->find($id);
 
-        return view('diamonds/edit', $data);
+        return view('gem/edit', $data);
     }
 
     public function update($id)
     {
-        $model = new DiamondTopupModel();
+        $model = new GemModel();
 
         $data = [
+            'uid' => $this->request->getPost('uid'),
             'nickname' => $this->request->getPost('nickname'),
-            'user_id' => $this->request->getPost('user_id'),
+            'server' => $this->request->getPost('server'),
             'amount' => $this->request->getPost('amount')
         ];
 
         $model->update($id, $data);
 
-        return redirect()->to('/diamonds');
+        return redirect()->to('/gem');
     }
 
     public function delete($id)
     {
-        $model = new DiamondTopupModel();
+        $model = new GemModel();
         $model->delete($id);
 
-        return redirect()->to('/diamonds');
+        return redirect()->to('/gem');
     }
 }

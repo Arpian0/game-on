@@ -106,7 +106,7 @@
         <span class="material-symbols-outlined">
             stadia_controller
         </span>
-        <h1>Top Up Game</h1>
+        <h1>GAME ON</h1>
         <ul>
             <li><a href="dashboard">Dashboard</a></li>
             <li><a href="admin">Admin</a></li>
@@ -115,7 +115,7 @@
         </ul>
         <div style="padding-left: 350px;">
             <button style="background-color: red;">
-                <a class="text" href="logout">Logout</a>
+                <a class="text" href="logout" onclick="return confirm('Apakah Anda yakin ingin keluar')">Logout</a>
             </button>
         </div>
     </header>

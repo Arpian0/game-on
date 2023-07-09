@@ -38,7 +38,7 @@
 
 <h1>Daftar Topup Diamond</h1>
 
-<a href="/diamonds/create">Tambah Topup Diamond</a>
+<a href="/primogem/create">Tambah Topup Diamond</a>
 
 <table>
     <thead>
@@ -53,17 +53,17 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($diamonds as $diamond) : ?>
+        <?php foreach ($primogem as $primo) : ?>
             <tr>
-                <td><?= $diamond['id']; ?></td>
-                <td><?= $diamond['nickname']; ?></td>
-                <td><?= $diamond['user_id']; ?></td>
-                <td><?= $diamond['amount']; ?></td>
-                <td><?= $diamond['created_at']; ?></td>
-                <td><?= $diamond['updated_at']; ?></td>
+                <td><?= $primo['id']; ?></td>
+                <td><?= $primo['nick_gi']; ?></td>
+                <td><?= $primo['user_uid']; ?></td>
+                <td><?= $primo['amount']; ?></td>
+                <td><?= $primo['created_at']; ?></td>
+                <td><?= $primo['updated_at']; ?></td>
                 <td>
-                    <a href="/diamonds/edit/<?= $diamond['id']; ?>">Edit</a>
-                    <a href="/diamonds/delete/<?= $diamond['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                    <a href="/primogem/edit/<?= $primo['id']; ?>">Edit</a>
+                    <a href="/primogem/delete/<?= $primo['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
                 </td>
             </tr>
         <?php endforeach; ?>

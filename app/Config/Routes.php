@@ -102,6 +102,68 @@ $routes->group('diamonds', function ($routes) {
     $routes->get('delete/(:num)', 'DiamondTopupController::delete/$1');
 });
 
+$routes->group('primogem', function ($routes) {
+    $routes->get('/', 'PrimogemController::index');
+    $routes->get('create', 'PrimogemController::create');
+    $routes->post('store', 'PrimogemController::store');
+    $routes->get('edit/(:num)', 'PrimogemController::edit/$1');
+    $routes->post('update/(:num)', 'PrimogemController::update/$1');
+    $routes->get('delete/(:num)', 'PrimogemController::delete/$1');
+});
+
+$routes->group('apexcoin', function ($routes) {
+    $routes->get('/', 'ApexcoinController::index');
+    $routes->get('create', 'ApexcoinController::create');
+    $routes->post('store', 'ApexcoinController::store');
+    $routes->get('edit/(:num)', 'ApexcoinController::edit/$1');
+    $routes->post('update/(:num)', 'ApexcoinController::update/$1');
+    $routes->get('delete/(:num)', 'ApexcoinController::delete/$1');
+});
+
+$routes->group('crystal', function ($routes) {
+    $routes->get('/', 'CrystalController::index');
+    $routes->get('create', 'CrystalController::create');
+    $routes->post('store', 'CrystalController::store');
+    $routes->get('edit/(:num)', 'CrystalController::edit/$1');
+    $routes->post('update/(:num)', 'CrystalController::update/$1');
+    $routes->get('delete/(:num)', 'CrystalController::delete/$1');
+});
+
+$routes->group('darkcrystal', function ($routes) {
+    $routes->get('/', 'DcController::index');
+    $routes->get('create', 'DcController::create');
+    $routes->post('store', 'DcController::store');
+    $routes->get('edit/(:num)', 'DcController::edit/$1');
+    $routes->post('update/(:num)', 'DcController::update/$1');
+    $routes->get('delete/(:num)', 'DcController::delete/$1');
+});
+
+$routes->group('gem', function ($routes) {
+    $routes->get('/', 'GemController::index');
+    $routes->get('create', 'GemController::create');
+    $routes->post('store', 'GemController::store');
+    $routes->get('edit/(:num)', 'GemController::edit/$1');
+    $routes->post('update/(:num)', 'GemController::update/$1');
+    $routes->get('delete/(:num)', 'GemController::delete/$1');
+});
+
+$routes->group('stellar', function ($routes) {
+    $routes->get('/', 'StellarController::index');
+    $routes->get('create', 'StellarController::create');
+    $routes->post('store', 'StellarController::store');
+    $routes->get('edit/(:num)', 'StellarController::edit/$1');
+    $routes->post('update/(:num)', 'StellarController::update/$1');
+    $routes->get('delete/(:num)', 'StellarController::delete/$1');
+});
+
+$routes->group('valorant', function ($routes) {
+    $routes->get('/', 'ValorantController::index');
+    $routes->get('create', 'ValorantController::create');
+    $routes->post('store', 'ValorantController::store');
+    $routes->get('edit/(:num)', 'ValorantController::edit/$1');
+    $routes->post('update/(:num)', 'ValorantController::update/$1');
+    $routes->get('delete/(:num)', 'ValorantController::delete/$1');
+});
 
 
 // app/Config/Routes.php

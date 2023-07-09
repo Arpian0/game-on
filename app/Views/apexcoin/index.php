@@ -38,14 +38,15 @@
 
 <h1>Daftar Topup Diamond</h1>
 
-<a href="/diamonds/create">Tambah Topup Diamond</a>
+<a href="/apexcoin/create">Tambah Topup Diamond</a>
 
 <table>
     <thead>
         <tr>
             <th>ID</th>
+            <th>UID</th>
             <th>Nickname</th>
-            <th>User ID</th>
+            <th>Server</th>
             <th>Amount</th>
             <th>Created At</th>
             <th>Updated At</th>
@@ -53,17 +54,18 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($diamonds as $diamond) : ?>
+        <?php foreach ($apexcoin as $coin) : ?>
             <tr>
-                <td><?= $diamond['id']; ?></td>
-                <td><?= $diamond['nickname']; ?></td>
-                <td><?= $diamond['user_id']; ?></td>
-                <td><?= $diamond['amount']; ?></td>
-                <td><?= $diamond['created_at']; ?></td>
-                <td><?= $diamond['updated_at']; ?></td>
+                <td><?= $coin['id']; ?></td>
+                <td><?= $coin['uid']; ?></td>
+                <td><?= $coin['nickname']; ?></td>
+                <td><?= $coin['server']; ?></td>
+                <td><?= $coin['amount']; ?></td>
+                <td><?= $coin['created_at']; ?></td>
+                <td><?= $coin['updated_at']; ?></td>
                 <td>
-                    <a href="/diamonds/edit/<?= $diamond['id']; ?>">Edit</a>
-                    <a href="/diamonds/delete/<?= $diamond['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                    <a href="/apexcoin/edit/<?= $coin['id']; ?>">Edit</a>
+                    <a href="/apexcoin/delete/<?= $coin['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
                 </td>
             </tr>
         <?php endforeach; ?>

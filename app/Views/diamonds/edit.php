@@ -1,6 +1,9 @@
 <h1>Edit Topup Diamond</h1>
 
 <form action="/diamonds/update/<?= $diamond['id']; ?>" method="post">
+    <label for="nickname">User ID:</label>
+    <input type="text" name="nickname" id="nickname" value="<?= $diamond['nickname']; ?>" required>
+
     <label for="user_id">User ID:</label>
     <input type="text" name="user_id" id="user_id" value="<?= $diamond['user_id']; ?>" required>
 

@@ -58,7 +58,7 @@
 
 <body class="body">
     <div class="content" id="content" style="text-align: center;">
-        <h2>Dashboard</h2>
-        <p>Ini adalah halaman dashboard</p>
+        <h2>Game On</h2>
+        <p>Tempat top up game terbaik dan murah untuk, untuk para pencinta game.</p>
     </div>
 </body>

@@ -91,37 +91,37 @@
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="primogem/create">
                             <img src="<?php echo base_url('path/ke/Genshin_Impact_logo.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="stellar/create">
                             <img src="<?php echo base_url('path/ke/Honkai_Star_Rail.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="crystal/create">
                             <img src="<?php echo base_url('path/ke/Honkai_Impact_3rd_logo.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="darkcrystal/create">
                             <img src="<?php echo base_url('path/ke/tower-of-fantasy-logo.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="gem/create">
                             <img src="<?php echo base_url('path/ke/nikke-gov.jpg'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="valorant/create">
                             <img src="<?php echo base_url('path/ke/valorant-logo.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
                     <li style="background-color: white;">
-                        <a href="">
+                        <a href="apexcoin/create">
                             <img src="<?php echo base_url('path/ke/apex-legends.png'); ?>" alt="image" width="300" height="150">
                         </a>
                     </li>
