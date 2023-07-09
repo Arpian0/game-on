@@ -47,6 +47,7 @@ $routes->get('kategori', 'Dashboard::kategori');
 $routes->get('peminjaman', 'Dashboard::peminjaman');
 $routes->get('pengembalian', 'Dashboard::pengembalian');
 
+$routes->get('/', 'LoginController::index');
 $routes->get('/login', 'LoginController::index');
 $routes->get('/logout', 'LoginController::logout');
 $routes->post('/login', 'LoginController::doLogin');
@@ -56,7 +57,7 @@ $routes->post('proses', 'UploadController::proses');
 // $routes->post('upload/delete/(:num)', 'UploadController::delete/$1');
 $routes->match(['get', 'post'], 'upload/delete/(:num)', 'UploadController::delete/$1');
 
-$routes->get('/', 'ImageController::index');
+$routes->get('/image', 'ImageController::index');
 $routes->post('destroy', 'ImageController::destroy');
 $routes->group('image', function ($routes) {
     $routes->get('/', 'ImageController::index');
