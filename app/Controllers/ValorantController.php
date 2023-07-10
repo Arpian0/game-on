@@ -27,12 +27,13 @@ class ValorantController extends BaseController
             'nickname' => $this->request->getPost('nickname'),
             'uid' => $this->request->getPost('uid'),
             'server' => $this->request->getPost('server'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->insert($data);
 
-        return redirect()->to('topup');
+        return redirect()->to('image');
     }
 
     public function edit($id)
@@ -51,12 +52,13 @@ class ValorantController extends BaseController
             'nickname' => $this->request->getPost('nickname'),
             'uid' => $this->request->getPost('uid'),
             'server' => $this->request->getPost('server'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->update($id, $data);
 
-        return redirect()->to('/valorant');
+        return redirect()->to('/admin');
     }
 
     public function delete($id)

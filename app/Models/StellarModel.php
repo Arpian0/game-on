@@ -8,5 +8,5 @@ class StellarModel extends Model
 {
     protected $table = 'stellar';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['nickname', 'uid', 'server', 'amount'];
+    protected $allowedFields = ['nickname', 'uid', 'server', 'amount', 'status'];
 }

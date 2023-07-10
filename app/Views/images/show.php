@@ -17,8 +17,13 @@
                             <img src="<?= base_url('uploads/' . $image['path']) ?>" class="img-fluid" alt="Image">
                         </div>
                         <div class="col-md-6">
-                            <label> UID Honkai Star Rail </label>
-                            <input type="text" name="idserver" id="idserver" class="form-control" placeholder="Masukkan ID Zona tanpa tanda ()" required="">
+                            <h4>Tranfer Dengan Nama Tersebut</h4>
+                            <p>: <?= $image['name'] ?></p>
+                            <h4>Transfer Dengan Nomor Rekening Tersebut</h4>
+                            <p>: <?= $image['nim'] ?></p>
+                        </div>
+                        <div style="padding-left: 480px;padding-top: 50px;">
+                            <a class="btn btn-warning" href="<?php echo base_url('topup'); ?>" onclick="return confirm('Apakah kamu sudah melakukan pembayaran? kalau sudah pencet OK')">Apa Kamu Mau Topup Lagi?</a>
                         </div>
                     </div>
                 </div>

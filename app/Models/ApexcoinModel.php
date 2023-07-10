@@ -8,5 +8,5 @@ class ApexcoinModel extends Model
 {
     protected $table = 'apexcoin';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['uid', 'nickname', 'server', 'amount'];
+    protected $allowedFields = ['uid', 'nickname', 'server', 'amount', 'status'];
 }

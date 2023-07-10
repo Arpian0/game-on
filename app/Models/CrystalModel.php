@@ -8,5 +8,5 @@ class CrystalModel extends Model
 {
     protected $table = 'crystal';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['uid', 'nickname', 'server', 'amount'];
+    protected $allowedFields = ['uid', 'nickname', 'server', 'amount', 'status'];
 }

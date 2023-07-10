@@ -166,6 +166,9 @@ $routes->group('valorant', function ($routes) {
     $routes->get('delete/(:num)', 'ValorantController::delete/$1');
 });
 
+$routes->get('/payment', 'PaymentController::index');
+$routes->post('/payment/process', 'PaymentController::processPayment');
+$routes->get('/payment/success', 'PaymentController::success');
 
 // app/Config/Routes.php
 

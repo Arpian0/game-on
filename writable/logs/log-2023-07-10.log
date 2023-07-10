@@ -1,0 +1,579 @@
+INFO - 2023-07-10 12:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 13:31:03 --> Invalid file: "payment.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(12): view('payment')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PaymentController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 13:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 13:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 15:10:10 --> Undefined variable $diamond
+in APPPATH\Views\diamonds\create.php on line 35.
+ 1 APPPATH\Views\diamonds\create.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diamond', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\diamonds\\create.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\diamonds\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('diamonds/create', [], true)
+ 5 APPPATH\Controllers\DiamondTopupController.php(19): view('diamonds/create')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DiamondTopupController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DiamondTopupController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 15:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 15:30:12 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:31:13 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:32:12 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 15:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 15:32:52 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:32:57 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:33:03 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:33:05 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:33:08 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:33:11 --> Undefined variable $sl
+in APPPATH\Views\stellar\edit.php on line 3.
+ 1 APPPATH\Views\stellar\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sl', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stellar/edit', [], true)
+ 5 APPPATH\Controllers\StellarController.php(44): view('stellar/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StellarController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StellarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:33:28 --> Undefined variable $sl
+in APPPATH\Views\stellar\edit.php on line 3.
+ 1 APPPATH\Views\stellar\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sl', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stellar/edit', [], true)
+ 5 APPPATH\Controllers\StellarController.php(44): view('stellar/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StellarController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StellarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 15:35:19 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:35:40 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:35:42 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:35:44 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:35:46 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:35:49 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:38:13 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:39:09 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:43:11 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:43:13 --> Undefined variable $valo
+in APPPATH\Views\valorant\edit.php on line 3.
+ 1 APPPATH\Views\valorant\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\valorant\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\valorant\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('valorant/edit', [], true)
+ 5 APPPATH\Controllers\ValorantController.php(44): view('valorant/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ValorantController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ValorantController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:43:18 --> Undefined variable $dc
+in APPPATH\Views\darkcrystal\edit.php on line 3.
+ 1 APPPATH\Views\darkcrystal\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dc', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\darkcrystal\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\darkcrystal\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('darkcrystal/edit', [], true)
+ 5 APPPATH\Controllers\DcController.php(44): view('darkcrystal/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DcController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DcController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:43:20 --> Undefined variable $cs
+in APPPATH\Views\crystal\edit.php on line 3.
+ 1 APPPATH\Views\crystal\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crystal/edit', [], true)
+ 5 APPPATH\Controllers\CrystalController.php(44): view('crystal/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrystalController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrystalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:48:11 --> Undefined variable $cs
+in APPPATH\Views\crystal\edit.php on line 3.
+ 1 APPPATH\Views\crystal\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crystal/edit', [], true)
+ 5 APPPATH\Controllers\CrystalController.php(44): view('crystal/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrystalController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrystalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:48:13 --> Undefined variable $cs
+in APPPATH\Views\crystal\edit.php on line 3.
+ 1 APPPATH\Views\crystal\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\crystal\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crystal/edit', [], true)
+ 5 APPPATH\Controllers\CrystalController.php(44): view('crystal/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CrystalController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrystalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:49:46 --> Undefined variable $dc
+in APPPATH\Views\darkcrystal\edit.php on line 3.
+ 1 APPPATH\Views\darkcrystal\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dc', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\darkcrystal\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\darkcrystal\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('darkcrystal/edit', [], true)
+ 5 APPPATH\Controllers\DcController.php(44): view('darkcrystal/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DcController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DcController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:50:44 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:50:55 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:51:00 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:53:31 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:53:35 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 15:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 15:55:24 --> Undefined variable $primo
+in APPPATH\Views\primogem\edit.php on line 3.
+ 1 APPPATH\Views\primogem\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $primo', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\primogem\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('primogem/edit', [], true)
+ 5 APPPATH\Controllers\PrimogemController.php(43): view('primogem/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrimogemController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrimogemController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:56:22 --> Undefined variable $sl
+in APPPATH\Views\stellar\edit.php on line 3.
+ 1 APPPATH\Views\stellar\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sl', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stellar/edit', [], true)
+ 5 APPPATH\Controllers\StellarController.php(44): view('stellar/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StellarController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StellarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+CRITICAL - 2023-07-10 15:56:38 --> Undefined variable $sl
+in APPPATH\Views\stellar\edit.php on line 3.
+ 1 APPPATH\Views\stellar\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sl', 'C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\game-on\\app\\Views\\stellar\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stellar/edit', [], true)
+ 5 APPPATH\Controllers\StellarController.php(44): view('stellar/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StellarController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StellarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\game-on\\public\\index.php')
+INFO - 2023-07-10 16:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

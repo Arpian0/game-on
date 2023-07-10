@@ -26,12 +26,13 @@ class PrimogemController extends BaseController
         $data = [
             'nick_gi' => $this->request->getPost('nick_gi'),
             'user_uid' => $this->request->getPost('user_uid'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->insert($data);
 
-        return redirect()->to('topup');
+        return redirect()->to('image');
     }
 
     public function edit($id)
@@ -49,12 +50,13 @@ class PrimogemController extends BaseController
         $data = [
             'nick_gi' => $this->request->getPost('nick_gi'),
             'user_uid' => $this->request->getPost('user_uid'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->update($id, $data);
 
-        return redirect()->to('/primogem');
+        return redirect()->to('/admin');
     }
 
     public function delete($id)

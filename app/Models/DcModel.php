@@ -8,5 +8,5 @@ class DcModel extends Model
 {
     protected $table = 'darkcrystal';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['uid', 'nickname', 'server', 'amount'];
+    protected $allowedFields = ['uid', 'nickname', 'server', 'amount', 'status'];
 }

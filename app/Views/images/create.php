@@ -33,11 +33,11 @@
                         <input type="file" name="image" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="name">Nama</label>
+                        <label for="name">Nama Rekening Dituju</label>
                         <input type="text" name="name" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="nim">NIM / NIK</label>
+                        <label for="nim">Nomor Rekening Dituju</label>
                         <input type="text" name="nim" class="form-control">
                     </div>
                     <div class="form-group">

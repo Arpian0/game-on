@@ -128,6 +128,5 @@
                 </ul>
             </div>
         </form>
-        <form action="<?= base_url('image') ?>"><button>Top Up Game</button></form>
     </div>
 </div>

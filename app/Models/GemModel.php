@@ -8,5 +8,5 @@ class GemModel extends Model
 {
     protected $table = 'gem';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['uid', 'nickname', 'server', 'amount'];
+    protected $allowedFields = ['uid', 'nickname', 'server', 'amount', 'status'];
 }

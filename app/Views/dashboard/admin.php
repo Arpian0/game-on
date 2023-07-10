@@ -99,6 +99,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -113,7 +114,9 @@
                         <td>
                             <a href="/diamonds/edit/<?= $diamond['id']; ?>">Edit</a>
                             <a href="/diamonds/delete/<?= $diamond['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $diamond['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -130,6 +133,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -144,7 +148,9 @@
                         <td>
                             <a href="/primogem/edit/<?= $primo['id']; ?>">Edit</a>
                             <a href="/primogem/delete/<?= $primo['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $primo['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -162,6 +168,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -177,7 +184,9 @@
                         <td>
                             <a href="/stellar/edit/<?= $sl['id']; ?>">Edit</a>
                             <a href="/stellar/delete/<?= $sl['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $sl['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -195,6 +204,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -210,7 +220,9 @@
                         <td>
                             <a href="/crystal/edit/<?= $cs['id']; ?>">Edit</a>
                             <a href="/crystal/delete/<?= $cs['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $cs['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -228,6 +240,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -243,7 +256,9 @@
                         <td>
                             <a href="/darkcrystal/edit/<?= $dc['id']; ?>">Edit</a>
                             <a href="/darkcrystal/delete/<?= $dc['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $dc['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -261,6 +276,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -276,7 +292,9 @@
                         <td>
                             <a href="/gem/edit/<?= $gm['id']; ?>">Edit</a>
                             <a href="/gem/delete/<?= $gm['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $gm['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -294,6 +312,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -309,7 +328,9 @@
                         <td>
                             <a href="/valorant/edit/<?= $valo['id']; ?>">Edit</a>
                             <a href="/valorant/delete/<?= $valo['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $valo['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
@@ -327,6 +348,7 @@
                     <th>Created At</th>
                     <th>Updated At</th>
                     <th>Action</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -342,7 +364,9 @@
                         <td>
                             <a href="/apexcoin/edit/<?= $coin['id']; ?>">Edit</a>
                             <a href="/apexcoin/delete/<?= $coin['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus topup ini?')">Delete</a>
+                            <a href="image">Pembayaran</a>
                         </td>
+                        <td><?= $coin['status']; ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

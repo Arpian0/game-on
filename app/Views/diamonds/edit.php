@@ -10,5 +10,12 @@
     <label for="amount">Amount:</label>
     <input type="number" name="amount" id="amount" value="<?= $diamond['amount']; ?>" required>
 
+    <label for="status">Status:</label>
+    <select name="status" id="status">
+        <option value="Diproses">Diproses</option>
+        <option value="Selesai">Selesai</option>
+        <option value="Dibatalkan">Dibatalkan</option>
+    </select>
+
     <button type="submit">Simpan</button>
 </form>

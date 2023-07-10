@@ -3,9 +3,9 @@
 <?= $this->section('content') ?>
 <section class="jumbotron text-center bg-info">
     <div class="container">
-        <h1 class="jumbotron-heading">Top Up Game</h1>
+        <h1 class="jumbotron-heading">Metode Pembayaran</h1>
         <p class="lead text-heading" style="color: wheat;">
-            Ayok buruan Top Up Game Kesukaan Kamu Disini Untuk Bisa Mendapatkan Skin Atau Item yang Kalian Inginkan
+            Pilih metode pembayaran yang kamu mau
         </p>
         <p>
             <a href="<?php echo base_url('image/create'); ?>" class="btn btn-primary btn-sm my-2">
@@ -14,7 +14,7 @@
         </p>
     </div>
     <div style="text-align: right;">
-        <form class="btn btn-danger" action="logout"><a style="color: white;" href="logout">Keluar</a></form>
+        <form class="btn btn-danger" action="logout"><a style="color: white;" href="dashboard" onclick="return confirm('Apakah kamu sudah melakukan pembayaran? kalau sudah pencet OK')">Kembali</a></form>
     </div>
 </section>
 
@@ -41,10 +41,10 @@
             <?php if (!empty($images) && is_array($images)) { ?>
                 <?php foreach ($images as $row) { ?>
                     <div class="col-md-4">
-                        <h6 style="text-align: center;">Klik Gambar Untuk Melihat Lebih Lanjut</h6>
+                        <h6 style="text-align: center;">Klik Gambar Untuk Memilih Metode Pembayaran</h6>
                         <div class="card mb-4 shadow">
                             <a href="<?php echo base_url('image/show/' . $row['id']); ?>">
-                                <img src="<?php echo base_url('uploads/' . $row['path']); ?>" class="card-img-top" style="height: 150px; width:100%; object-fit: cover;">
+                                <img src="<?php echo base_url('uploads/' . $row['path']); ?>" class="card-img-top" style="height: 350px; width:100%; object-fit: cover;">
                             </a>
                             <div class="card-body">
                                 <p class="card-text">

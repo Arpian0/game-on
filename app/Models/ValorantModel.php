@@ -8,5 +8,5 @@ class ValorantModel extends Model
 {
     protected $table = 'valorant';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['uid', 'nickname', 'server', 'amount'];
+    protected $allowedFields = ['uid', 'nickname', 'server', 'amount', 'status'];
 }

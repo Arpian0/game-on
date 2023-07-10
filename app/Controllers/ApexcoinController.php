@@ -27,12 +27,13 @@ class ApexcoinController extends BaseController
             'uid' => $this->request->getPost('uid'),
             'nickname' => $this->request->getPost('nickname'),
             'server' => $this->request->getPost('server'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->insert($data);
 
-        return redirect()->to('topup');
+        return redirect()->to('image');
     }
 
     public function edit($id)
@@ -51,12 +52,13 @@ class ApexcoinController extends BaseController
             'uid' => $this->request->getPost('uid'),
             'nickname' => $this->request->getPost('nickname'),
             'server' => $this->request->getPost('server'),
-            'amount' => $this->request->getPost('amount')
+            'amount' => $this->request->getPost('amount'),
+            'status' => $this->request->getPost('status')
         ];
 
         $model->update($id, $data);
 
-        return redirect()->to('/apexcoin');
+        return redirect()->to('/admin');
     }
 
     public function delete($id)

@@ -34,6 +34,14 @@
         <label for="amount">Amount:</label>
         <input type="number" name="amount" id="amount" required>
     </div>
+    <div style="padding-left: 20px;">
+        <label for="status">Status:</label>
+        <select name="status" id="status">
+            <option value="Diproses">Diproses</option>
+            <option value="Selesai">Selesai</option>
+            <option value="Dibatalkan">Dibatalkan</option>
+        </select>
+    </div>
     <div style="padding-left: 10px;">
         <button type="submit">Simpan</button>
     </div>
